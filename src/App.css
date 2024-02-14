@@ -1,0 +1,24 @@
+body, div {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .firstbg {
+    background-image: url('./Components/images/gray\ paper\ 2.png');
+  }
+  
+  .secondbg {
+    background-image: url('./Components/images/texture\ 3.png');
+  }
+  
+  .thirdbg {
+    background-image: url('./Components/images/texture.png');
+  }
+  
+  .parallax {
+    background-image: url('./Components/images/parallax.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100vmin;
+    width: 100%;
+  }
