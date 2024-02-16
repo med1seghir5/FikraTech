@@ -1,7 +1,5 @@
 import React from 'react';
-import GdscLogo from './images/LogoGDSC.svg';
-import Etique from './images/Group 4.svg';
-import Tri from './images/Group (1).svg';
+import GdscLogo from './images/NewGdsc.svg';
 import Instagram from './images/instagram.svg';
 import Linkdnl from './images/linkedin.svg';
 import Facebook from './images/facebook-2.svg';
@@ -13,10 +11,8 @@ const Gdsc = () => {
     <div className='flex flex-col pt-36 sm:flex-row pt-16 justify-center'>
       <div className='mb-4 sm:mb-0 sm:basis-1/3'>
         <div className='flex flex-row justify-center sm:flex flex-row'>
-          <img src={GdscLogo} alt='Gdsc logo' className='ml-8' width="40%" />
-          <img src={Tri} alt='Tri logo' width="40%" className='pr-12 mt-16 sm:mt-0' />
+          <img src={GdscLogo} alt='Gdsc logo' className='ml-8 w-72 sm:w-96' />
         </div>
-        <img src={Etique} alt='logo' className='ml-12' width="40%" />
       </div>
 
       <div className='flex flex-col justify-center pt-10 sm: pt-20 sm:ml-8'>
