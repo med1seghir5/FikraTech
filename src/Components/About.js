@@ -1,5 +1,5 @@
 import React from 'react';
-import Card from './images/Paragraph.svg';
+import Card from './images/card1.svg';
 import Startedu from './images/Mask group (1).svg';
 import Ni9t from './images/ni9at.svg'
 

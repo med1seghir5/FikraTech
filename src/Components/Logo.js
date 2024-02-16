@@ -1,14 +1,14 @@
 import React from 'react'
 import BigLogo from './images/Frame 1.svg'
 import DateLieu from './images/Newdate.svg'
-import Collab from './images/Frame 11.svg'
+import Collab from './images/gdsc-startedu-02.svg'
 
 
 const Logo = () => {
   return (
     <div className= 'flex flex-col items-center justify-center sm:flex flex-col items-center justify-center' id='logo'>
         <div>
-            <img src={BigLogo} alt='Fikratech logo' className='w-96'/>
+            <img src={BigLogo} alt='Fikratech logo' className='w-72 sm:w-96'/>
         </div>
 
         <div>
@@ -16,7 +16,7 @@ const Logo = () => {
         </div>
 
         <div className='m-10'>
-            <img src={Collab} alt='Collab logo' className='w-56 sm:w-96'/>
+            <img src={Collab} alt='Collab logo' className='w-72 sm:w-96' />
         </div>
 
         <div>
