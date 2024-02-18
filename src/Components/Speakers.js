@@ -4,6 +4,7 @@ import Speaker2 from './images/speaker3.svg';
 import Speaker3 from './images/speaker4.svg';
 import Speaker4 from './images/speaker1.svg';
 import Speaker5 from './images/speaker5.svg';
+import Speaker6 from './images/speaker6.svg';
 import Speak from './images/Speakers.svg';
 import Flech3 from './images/Flech3.svg';
 
@@ -24,6 +25,7 @@ const Speakers = () => {
       <div className='flex flex-col space-y-10 sm:flex-row justify-center space-y-5 sm:space-y-0 sm:space-x-10'>
         <img src={Speaker4} alt='Speaker' className='w-full sm:w-96' />
         <img src={Speaker5} alt='Speaker' className='w-full sm:w-96' />
+        <img src={Speaker6} alt='Speaker' className='w-full sm:w-96' />
       </div>
     </div>
   );
